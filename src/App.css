@@ -1,0 +1,9 @@
+main {
+  margin: 0;
+  margin-top: 4.5rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+}

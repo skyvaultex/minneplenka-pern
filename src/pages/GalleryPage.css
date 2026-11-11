@@ -1,0 +1,114 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 2vw;
+  background-color: black;
+  margin: 2vw;
+}
+
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+
+  transition: 200ms ease-out;
+}
+
+.gallery-thumbnail {
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+
+  border-radius: 12px 12px 0 0;
+}
+
+.gallery-card-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+
+.title-container {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+}
+
+.gallery-card-title {
+  margin: 0.7vw 2vw;
+}
+
+.gallery-card-description {
+  margin: 0.5vw 1.5vw;
+  min-height: 5rem;
+  font-weight: 400;
+}
+
+.gallery-card-author {
+  display: flex;
+  align-self: stretch;
+  justify-content: start;
+  margin: 0 2vw;
+}
+
+.gallery-card-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.button-primary {
+  background-color: black;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 25px;
+  height: 3rem;
+  width: 10rem;
+  border: none;
+  cursor: pointer;
+  transition: 200ms ease-out;
+}
+
+.button-primary span {
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.button-primary:hover {
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-width: 0.2rem;
+}
+
+.category-button {
+  height: 2rem;
+  width: 6rem;
+  background-color: white;
+  border: solid;
+  border-color: lightgray;
+  border-radius: 20px;
+  border-width: 1px;
+
+
+  color: black;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.active {
+  border-width: 1.5px;
+  border-color: #75818d;
+  background-color: #c5d0db;
+}

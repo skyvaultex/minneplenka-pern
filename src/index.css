@@ -1,0 +1,18 @@
+:root {
+  font-family: 'Plus Jakarta Sans';
+  --color-bg: #F3F0EA;
+  --color-surface: #E6E0D6;
+
+  --color-text: #171614;
+  --color-text-muted: #6F6A63;
+
+  --color-accent: #8A6F5A;
+  --color-accent-soft: #C8A189;
+
+  --color-forest: #2B332D;
+  --color-border: #A8ACA9;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0
+}
+

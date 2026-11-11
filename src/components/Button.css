@@ -1,0 +1,43 @@
+.primary-button {
+  padding: 1.3rem 2rem;
+
+  border: none;
+  transition: 200ms ease-out;
+  cursor: pointer;
+}
+
+.primary-button-alt {
+  padding: 1.3rem 2rem;
+
+  border: none;
+  transition: 200ms ease-out;
+  cursor: pointer;
+}
+
+.cta-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 4rem;
+
+  border: none;
+  color: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+}
+
+.cta-wrap:hover .primary-button {
+  transform: translateY(-4.28rem);
+}
+
+.cta-wrap:hover .primary-button-alt {
+  transform: translateY(-4.28rem);
+}
+
+.button-text {
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.3rem;
+  font-weight: 600;
+  opacity: 1;
+}
